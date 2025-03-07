@@ -1,1 +1,1 @@
-module.exports = require("./build/apis/drive");
+module.exports = require("./apis/drive");

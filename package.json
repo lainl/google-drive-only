@@ -2,7 +2,7 @@
   "name": "google-drive-only",
   "version": "1.0.0",
   "description": "Minimal Google Drive API Client Library for Node.js (Drive API only)",
-  "main": "apis/drive/index.js",
+  "main": "index.js",
   "types": "apis/drive/index.d.ts",
   "license": "Apache-2.0",
   "repository": {

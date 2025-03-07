@@ -1,11 +1,7 @@
 {
   "compilerOptions": {
-    // Tell TS your source starts in apis/drive
     "rootDir": "apis/drive",
-
-    // The compiled .js output will go here
     "outDir": "build/apis/drive",
-
     "target": "ES2019",
     "module": "CommonJS",
     "lib": ["ES2019"],
@@ -14,7 +10,7 @@
     "declaration": true,
     "skipLibCheck": true
   },
-  // Only compile the .ts files inside apis/drive
-  "include": ["apis/drive/**/*.ts"]
+  "include": [
+    "apis/drive/**/*.ts"
+  ]
 }
-
